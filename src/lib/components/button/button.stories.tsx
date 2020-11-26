@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
-import { Story, Meta } from '@storybook/react/types-6-0';
+import { Example, Document } from '@component-controls/core';
 
 import { Button, ButtonProps } from './button';
 
@@ -8,41 +8,41 @@ export default {
   title: 'Components/Button',
   component: Button,
   argTypes: {},
-} as Meta;
+} as Document;
 
-const Template: Story<ButtonProps> = (args) => <Button {...args}>Button Label</Button>;
+const Template: Example<ButtonProps> = (args) => <Button {...args}>Button Label</Button>;
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const Primary = Template.bind();
+Primary.controls = {
   variant: 'primary',
 };
 
 export const Success = Template.bind({});
-Success.args = {
+Success.controls = {
   variant: 'success',
 };
 
 export const Warn = Template.bind({});
-Warn.args = {
+Warn.controls = {
   variant: 'warn',
 };
 
 export const Danger = Template.bind({});
-Danger.args = {
+Danger.controls = {
   variant: 'danger',
 };
 
 export const FullWidth = Template.bind({});
-FullWidth.args = {
+FullWidth.controls = {
   fullWidth: true,
 };
 
 export const Medium = Template.bind({});
-Medium.args = {
+Medium.controls = {
   size: 'medium',
 };
 
 export const Small = Template.bind({});
-Small.args = {
+Small.controls = {
   size: 'small',
 };
