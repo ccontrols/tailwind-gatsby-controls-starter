@@ -85,5 +85,9 @@
   },
   "jest": {
     "preset": "ts-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccontrols/gatsby-nextjs-controls-starter.git"
   }
 }
