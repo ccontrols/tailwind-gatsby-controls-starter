@@ -8,6 +8,7 @@ component-controls.js
 
 # testing
 /coverage
+.eslintcache
 
 # production
 public
