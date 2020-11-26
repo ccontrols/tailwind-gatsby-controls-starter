@@ -1,6 +1,7 @@
 import React from 'react';
 import { RunConfiguration, defaultRunConfig } from "@component-controls/core";
 import { TestingPage } from "./testing-page";
+import '../src/tailwind.output.css';
 
 const config: RunConfiguration = {
   analytics: 'UA-XXXXXXXXX-X',
