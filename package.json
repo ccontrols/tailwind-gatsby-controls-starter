@@ -76,7 +76,8 @@
     "gatsby": "^3.0.3",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.1",
-    "postcss-cli": "^8.2.0",
+    "postcss": "^8.2.7",
+    "postcss-cli": "^8.3.1",
     "prettier": "^2.1.2",
     "react-is": "^17.0.1",
     "tailwindcss": "^1.9.6"
@@ -87,5 +88,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ccontrols/tailwind-gatsby-controls-starter.git"
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0",
+    "webpack": "5.24.4"
   }
 }

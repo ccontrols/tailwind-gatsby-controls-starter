@@ -12,6 +12,7 @@ component-controls.js
 
 # production
 public
+build
 
 # misc
 .cache

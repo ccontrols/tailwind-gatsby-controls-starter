@@ -11,4 +11,12 @@ module.exports = {
       },
     },
   },
+  loaders: {
+    'css-loader': {
+      modules: {
+        //prevent encoding of exported names
+        localIdentName: '[local]',
+      },
+    },
+  },
 };

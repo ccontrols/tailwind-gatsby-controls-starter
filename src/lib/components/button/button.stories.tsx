@@ -1,4 +1,5 @@
-/* eslint-disable import/no-unresolved */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import React from 'react';
 import { Example, Document } from '@component-controls/core';
 
@@ -17,32 +18,32 @@ Primary.controls = {
   variant: 'primary',
 };
 
-export const Success = Template.bind({});
+export const Success = Template.bind();
 Success.controls = {
   variant: 'success',
 };
 
-export const Warn = Template.bind({});
+export const Warn = Template.bind();
 Warn.controls = {
   variant: 'warn',
 };
 
-export const Danger = Template.bind({});
+export const Danger = Template.bind();
 Danger.controls = {
   variant: 'danger',
 };
 
-export const FullWidth = Template.bind({});
+export const FullWidth = Template.bind();
 FullWidth.controls = {
   fullWidth: true,
 };
 
-export const Medium = Template.bind({});
+export const Medium = Template.bind();
 Medium.controls = {
   size: 'medium',
 };
 
-export const Small = Template.bind({});
+export const Small = Template.bind();
 Small.controls = {
   size: 'small',
 };
