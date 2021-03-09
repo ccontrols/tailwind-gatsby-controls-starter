@@ -55,8 +55,8 @@
     "@babel/core": "^7.12.3",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@component-controls/gatsby-theme-stories": "^3.1.6",
-    "@component-controls/jest-snapshots": "^3.1.6",
+    "@component-controls/gatsby-theme-stories": "^3.2.0",
+    "@component-controls/jest-snapshots": "^3.2.0",
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
@@ -90,7 +90,6 @@
     "url": "https://github.com/ccontrols/tailwind-gatsby-controls-starter.git"
   },
   "resolutions": {
-    "babel-loader": "8.1.0",
     "webpack": "5.24.4"
   }
 }
