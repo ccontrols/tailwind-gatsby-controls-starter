@@ -1,4 +1,3 @@
-import React from 'react';
 import { RunConfiguration } from '@component-controls/core';
 import '../src/tailwind.output.css';
 
